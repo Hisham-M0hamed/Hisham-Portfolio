@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  background-color: var(--bgHeader);
+  justify-content: space-around;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  z-index: 99999;
+}
+.navbar li a {
+  margin: 0 12px;
+  color: var(--subtitle);
+  transition: 0.5s all;
+  font-size: 18px;
+}
+.navbar li a:hover {
+  color: var(--title);
+}
+@media (max-width: 400px) {
+  .navbar {
+    /* width: 300px; */
+
+    /* position: fixed;
+    bottom: 20px;
+    width: 380px;
+    padding: 9px 10px;
+    backdrop-filter: blur(8px);
+    left: 1%;
+    border: 1px solid var(--subtitle); */
+  }
+  .navbar li a {
+    font-size: 16px;
+    margin: 0 8px;
+  }
+}

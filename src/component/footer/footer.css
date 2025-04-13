@@ -1,0 +1,21 @@
+.all-footer {
+  margin-top: 60px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 19px 1px 0;
+}
+.list a {
+  margin-right: 10px;
+  color: var(--subtitle);
+  transition: 0.5s;
+}
+.footer p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}

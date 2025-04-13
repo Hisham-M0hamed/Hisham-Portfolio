@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+}
+.icon-light {
+  width: 45px;
+  height: 45px;
+  /* margin-right: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: var(--bgHeader);
+  color: var(--subtitle);
+  transition: 0.3s all;
+  border-radius: 20px;
+}
+.icon-light:hover {
+  color: var(--title);
+  font-size: 29px;
+}
+/* @media (max-width: 768px) {
+  .icon-light {
+    margin-right: 10px;
+  }
+} */
