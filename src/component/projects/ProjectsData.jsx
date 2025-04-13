@@ -1,7 +1,14 @@
+import ImageCart from "../../imageProject/Add-to-cart.png";
+import ImageEcommerce from "../../imageProject/E-Commerce.png";
+import ImageGallery from "../../imageProject/Gallery.png";
+import ImageDesign from "../../imageProject/Interior-Design.png";
+import ImageSolar from "../../imageProject/solar-panel.png";
+import ImageWeather from "../../imageProject/weather.png";
+
 const myProjects = [
   {
     id: "1",
-    image: "src/imageproject/Add-to-cart.png",
+    image: ImageCart,
     title: "Add To Cart",
     category: ["js"],
     gitLink: "https://github.com/Hisham-M0hamed/Add-To-Cart.git",
@@ -9,7 +16,7 @@ const myProjects = [
   },
   {
     id: "1",
-    image: "src/imageProject/E-Commerce.png",
+    image: ImageEcommerce,
     title: "E-Commerce App",
     category: ["react"],
     gitLink: "https://github.com/Hisham-M0hamed/E-Commerce-App.git",
@@ -17,7 +24,7 @@ const myProjects = [
   },
   {
     id: "1",
-    image: "src/imageProject/weather.png",
+    image: ImageWeather,
     title: "Weather App",
     category: ["react"],
     gitLink: "https://github.com/Hisham-M0hamed/Weather-App.git",
@@ -25,7 +32,7 @@ const myProjects = [
   },
   {
     id: "1",
-    image: "src/imageProject/Gallery.png",
+    image: ImageGallery,
     title: "Gallery App",
     category: ["js"],
     gitLink: "https://github.com/Hisham-M0hamed/Images-Gallery.git",
@@ -33,7 +40,7 @@ const myProjects = [
   },
   {
     id: "1",
-    image: "src/imageProject/solar-panel.png",
+    image: ImageSolar,
     title: "Solar Panels App",
     category: ["css"],
     gitLink: "https://github.com/Hisham-M0hamed/HTML-CSS-Project.git",
@@ -41,7 +48,7 @@ const myProjects = [
   },
   {
     id: "1",
-    image: "src/imageProject/Interior-Design.png",
+    image: ImageDesign,
     title: "Interior-Design App",
     category: ["css"],
     gitLink: "https://github.com/Hisham-M0hamed/Interior-Design.git",
